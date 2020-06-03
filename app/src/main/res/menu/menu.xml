@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_action_homeone"
+        android:iconTint="@color/colorPrimary"
+        android:title="Home"
+        app:showAsAction="never" />
+    <item
+        android:title="Race Schedule"
+        android:id="@+id/calendar"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="Pictures"
+        android:id="@+id/pictures"
+        app:showAsAction="never"/>
+    <item
+        android:title="Contact"
+        android:id="@+id/contact"
+        app:showAsAction="never"/>
+
+
+
+
+
+</menu>

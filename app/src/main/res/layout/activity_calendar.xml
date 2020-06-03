@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBack"
+    tools:context=".Calendar">
+
+    <RelativeLayout
+        android:layout_width="383dp"
+        android:layout_height="800dp">
+
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="140dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:paddingTop="20dp"
+            android:fontFamily="@font/bangers"
+            android:text="September 15 2018 "
+            android:textColor="#fff"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="56dp"
+            android:paddingLeft="50dp"
+            android:text="Huron Invitational"
+            android:fontFamily="@font/concert_one"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="180dp"
+            android:paddingLeft="40dp"
+            android:text="Carl Schoensee Memorial Classic"
+            android:fontFamily="@font/concert_one"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="310dp"
+            android:paddingLeft="45dp"
+            android:text="Marauder XC Invitational"
+            android:fontFamily="@font/concert_one"
+            android:textColor="@color/colorPrimary"/>
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="270dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="275dp"
+            android:paddingLeft="34dp"
+            android:fontFamily="@font/bangers"
+            android:text="September 29 2018 "
+            android:textColor="#fff"
+            android:textSize="25dp" />
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="400dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="144dp"
+            android:paddingLeft="40dp"
+            android:fontFamily="@font/bangers"
+            android:text="September 22 2018 "
+            android:textColor="#fff"
+            android:textSize="25dp" />
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="530dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/divider5"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="660dp"
+            android:background="?android:attr/listDivider" />
+
+
+        <View
+            android:id="@+id/divider7"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="790dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="74dp"
+            android:layout_marginLeft="55dp"
+            android:fontFamily="@font/concert_one"
+            android:text="Bus Time: 10:00am @ Riverside \nRace Time: 12:00pm @ Willow Metro Park"
+            android:textColor="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="338dp"
+            android:layout_marginLeft="55dp"
+            android:fontFamily="@font/concert_one"
+            android:text="Bus Time: 10:30am @ Riverside \nRace Time: 12:30pm @ Lake Erie Metro Park"
+            android:textColor="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="55dp"
+            android:fontFamily="@font/concert_one"
+            android:text="Bus Time: 7:00am @ Riverside \nRace Time: 9:30am @ CenterLine High School"
+            android:textColor="#fff" />
+
+
+
+
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:textSize="10dp"
+            android:layout_marginLeft="245dp"
+            android:layout_marginTop="15dp"
+            android:text="Results"
+            android:textColor="@color/colorPrimary"
+            android:background="@color/colorCard"
+            android:fontFamily="@font/bangers"/>
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:textSize="10dp"
+            android:layout_marginLeft="245dp"
+            android:layout_marginTop="150dp"
+            android:text="Results"
+            android:textColor="@color/colorPrimary"
+            android:background="@color/colorCard"
+            android:fontFamily="@font/bangers"/>
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:textSize="10dp"
+            android:layout_marginLeft="245dp"
+            android:layout_marginTop="280dp"
+            android:text="Results"
+            android:textColor="@color/colorPrimary"
+            android:background="@color/colorCard"
+            android:fontFamily="@font/bangers"/>
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

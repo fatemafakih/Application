@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBack"
+    tools:context=".HomeActivity">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardpone"
+            android:layout_width="345dp"
+            android:layout_height="181dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="24dp"
+            app:cardBackgroundColor="@color/colorCard"
+            app:cardCornerRadius="10dp"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="39dp">
+
+            <TextView
+                android:id="@+id/welcome"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/amatic_sc_bold"
+                android:gravity="left"
+                android:paddingLeft="15dp"
+                android:text="Riverside XC"
+                android:textColor="#fff"
+                android:textSize="40dp"
+                app:fontFamily="@font/concert_one" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="321dp"
+                android:layout_height="92dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/concert_one"
+                android:gravity="center"
+                android:lineSpacingExtra="4sp"
+                android:text="Welcome! This is the offical App for the Riverside Middle School Cross Country Team. You can find Pictures, a Race calendar, results and the ability to Contact a coach. "
+                android:textColor="#81d6c2" />
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardtwo"
+            android:layout_width="165dp"
+            android:layout_height="105dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="215dp"
+            app:cardBackgroundColor="@color/colorCard"
+            app:cardCornerRadius="10dp"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="39dp">
+
+            <TextView
+                android:id="@+id/miles"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center"
+                android:text="Miles ran since 2018:"
+                android:textColor="#fff"
+                android:textSize="15dp"
+                app:fontFamily="@font/concert_one" />
+
+            <TextView
+                android:id="@+id/nummiles"
+                android:layout_width="157dp"
+                android:layout_height="102dp"
+                android:layout_gravity="bottom"
+                android:layout_marginRight="100dp"
+                android:fontFamily="@font/amatic_sc_bold"
+                android:gravity="center"
+                android:text="1250"
+                android:textColor="#e3ffb2"
+                android:textSize="32dp"
+                app:fontFamily="@font/concert_one" />
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardthree"
+            android:layout_width="170dp"
+            android:layout_height="297dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="184dp"
+            android:layout_marginLeft="184dp"
+            android:layout_marginTop="215dp"
+            app:cardBackgroundColor="@color/colorCard"
+            app:cardCornerRadius="10dp"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="39dp">
+
+            <TextView
+                android:id="@+id/charms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lineSpacingExtra="18sp"
+                android:text="Charms"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="35dp"
+                app:fontFamily="@font/concert_one" />
+
+            <ImageView
+                android:id="@+id/charmone"
+                android:layout_width="64dp"
+                android:layout_height="match_parent"
+
+                android:paddingBottom="95dp"
+                app:srcCompat="@drawable/charmone" />
+
+            <ImageView
+                android:id="@+id/charmtwo"
+                android:layout_width="64dp"
+                android:layout_height="match_parent"
+
+                android:paddingLeft="-3dp"
+                app:srcCompat="@drawable/charmtwo" />
+
+            <ImageView
+                android:id="@+id/charmthree"
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="50dp"
+                android:paddingLeft="4dp"
+                android:paddingTop="95dp"
+                app:srcCompat="@drawable/charmthree" />
+
+            <ImageView
+                android:id="@+id/charmfour"
+                android:layout_width="54dp"
+                android:layout_height="match_parent"
+                android:paddingLeft="2dp"
+                android:paddingTop="200dp"
+                app:srcCompat="@drawable/charmfour" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="57dp"
+                android:paddingTop="80dp"
+                android:text="Single foot Charm: Earned each time athlete attends a race"
+                android:textColor="#fff"
+                android:textSize="10dp"
+                android:fontFamily="@font/amatic_sc_bold"/>
+
+            <TextView
+                android:id="@+id/textView222"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="57dp"
+                android:paddingTop="130dp"
+                android:text="Double foot Charm: Earned each time athlete beats Personal Record in a race"
+                android:textColor="#fff"
+                android:textSize="10dp"
+                android:fontFamily="@font/amatic_sc_bold"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="57dp"
+                android:paddingTop="180dp"
+                android:text="Star Charm: Earned when athlete runs 50 miles cumulative by the end of the season"
+                android:textColor="#fff"
+                android:textSize="10dp"
+                android:fontFamily="@font/amatic_sc_bold"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="57dp"
+                android:paddingTop="235dp"
+                android:text="Check Mark Charm:Earned each week of practice athlete attends"
+                android:textColor="#fff"
+                android:textSize="10dp"
+                android:fontFamily="@font/amatic_sc_bold"/>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardfour"
+            android:layout_width="165dp"
+            android:layout_height="180dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="331dp"
+            app:cardBackgroundColor="@color/colorCard"
+            app:cardCornerRadius="10dp"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="39dp">
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="Countdown to The First Day:"
+                android:textColor="#fff"
+                app:fontFamily="@font/concert_one" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ffeeee"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true">
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="0dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvhappyevent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingLeft="50dp"
+                        android:singleLine="true"
+                        android:textColor="#fff"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="7"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtTimerDay"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_TimerDay"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="   Days   "
+                            android:textColor="#fff"
+                            android:textSize="9dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtTimerHour"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_TimerHour"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:text="   Hours   "
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#fff"
+                            android:textSize="9dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtTimerMinute"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_TimerMinute"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:text="  Minutes  "
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#fff"
+                            android:textSize="9dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtTimerSecond"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_TimerSecond"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="  Seconds  "
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#fff"
+                            android:textSize="9dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeLayout"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ffeeee"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+</ScrollView>
